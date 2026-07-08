@@ -9,7 +9,15 @@
     <meta name="keywords" content="Ciberseguridad Costa Rica, Desarrollo de software B2B, Inteligencia Artificial In-House, Consultoría de sistemas de alta disponibilidad, Programación Next.js, Integración CRM backend, Virtualización e infraestructura, Diagnóstico Procmon, Análisis de malware aduanas">
     <meta name="author" content="Radar Tech & AI Consulting">
     <meta name="robots" content="index, follow">
-
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Radar | Consultoría de Ingeniería de Software, Ciberdefensa Avanzada e IA">
+    <meta property="og:description" content="Partner tecnológico especializado en ciberseguridad avanzada, desarrollo de software transaccional Next.js, despliegue de IA privada in-house con Ollama. Operación en Costa Rica y LATAM.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tudominio.com/">
+    <meta property="og:image" content="https://tudominio.com/logo.png">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -50,7 +58,7 @@
                 <h1 class="typewriter-title">Ciberdefensa Activa.<br>Ingeniería de Software.<br><span>Soluciones de IA a Medida.</span></h1>
                 <p class="meta-sub">No teorizamos sobre tecnología; la ejecutamos. Diseñamos e-commerce transaccionales robustos, blindamos entornos empresariales contra amenazas avanzadas y desplegamos sistemas de Inteligencia Artificial locales e in-house, asegurando la continuidad de su operación.</p>
                 <div class="cta-container">
-                    <a href="https://wa.me/50689135944" class="btn-primary" target="_blank">
+                    <a href="https://wa.me/50689135944" class="btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Conexión Inmediata por WhatsApp">
                         <i class="fa-brands fa-whatsapp"></i> CONEXIÓN INMEDIATA
                     </a>
                     <a href="#soluciones" class="btn-secondary">SERVICIOS</a>
@@ -225,7 +233,7 @@
                 <p>Disponible para auditorías urgentes de ciberdefensa, consultoría de arquitectura de software o despliegue de soluciones de inteligencia artificial privada. Diagnóstico directo desde el primer contacto.</p>
             </div>
             <div class="contacto-actions">
-                <a href="https://wa.me/50689135944" class="btn-whatsapp" target="_blank">
+                <a href="https://wa.me/50689135944" class="btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Canal WhatsApp">
                     <i class="fa-brands fa-whatsapp"></i> CANAL WHATSAPP (+506 8913-5944)
                 </a>
                 <a href="mailto:jeffryc6@outlook.com" class="btn-email">
@@ -239,36 +247,6 @@
         <p>// RADAR TECH & AI CONSULTING _ OPERACIÓN EN COSTA RICA & LATAM // TRANSMISIÓN DIGITAL SECUENCIA CRÍTICA</p>
     </footer>
 
-    <script>
-        const telemetry = document.getElementById('telemetry-target');
-        const pings = document.querySelectorAll('.radar-ping');
-        const anomalies = [
-            'MALWARE_DETECTED: BLOCKED', 
-            'COST_ANOMALY: OPTIMIZED', 
-            'DB_LATENCY: RESOLVED', 
-            'SYS_BUG: PATCHED', 
-            'INFRA_RISK: NEUTRALIZED'
-        ];
-
-        // Función para cambiar alertas aleatorias en la pantalla del Radar estilo Medal of Honor
-        setInterval(() => {
-            const randomPing = pings[Math.floor(Math.random() * pings.length)];
-            const randomAnomaly = anomalies[Math.floor(Math.random() * anomalies.length)];
-            
-            // Iluminar ping detectado temporalmente
-            randomPing.style.opacity = '1';
-            randomPing.style.transform = 'scale(1.5)';
-            telemetry.innerText = `OBJ_DETECTED: ${randomAnomaly}`;
-            telemetry.style.color = '#84cc16'; // Verde oliva activo
-
-            setTimeout(() => {
-                randomPing.style.opacity = '0.3';
-                randomPing.style.transform = 'scale(1)';
-                telemetry.innerText = 'SYS_SCAN: NOMINAL';
-                telemetry.style.color = '#475569';
-            }, 2500);
-
-        }, 5000);
-    </script>
+    <script src="script.js" defer></script>
 </body>
 </html>
